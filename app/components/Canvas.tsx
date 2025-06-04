@@ -8,8 +8,8 @@ import { BsPersonStanding } from "react-icons/bs";
 import { toast } from "react-toastify";
 import { useOutfits } from "./SavedContext";
 import { ClothingItemType, OutfitItem } from "../Types/types";
-const SINGLE_ITEM_CATEGORIES = ["upper", "bottom", "footwear"];
-const MULTIPLE_ITEMS_CATEGORIES = ["accessories"];
+const SINGLE_ITEM_CATEGORIES = ["upper", "bottom", "footwear","accessories"];
+// const MULTIPLE_ITEMS_CATEGORIES = ["accessories"];
 
 export default function Canvas({
   loadedOutfit,
